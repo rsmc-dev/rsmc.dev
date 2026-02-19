@@ -1,5 +1,5 @@
 
-Live at https://rsmc.dev
+- Live at https://rsmc.dev
 
 - Using jekyll-compose for file creation
   - Install with `gem install jekyll-compose`
