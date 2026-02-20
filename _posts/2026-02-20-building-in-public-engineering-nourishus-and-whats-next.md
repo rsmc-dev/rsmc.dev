@@ -1,0 +1,87 @@
+---
+title: "Building in Public: Engineering NourishUs and What's Next"
+date: 2016-02-20
+categories: [meta]
+tags: [swiftui, architecture, ios, swiftdata]
+---
+
+This site serves two purposes:
+
+1. To document how I design and build iOS applications.
+2. To deepen my understanding of Apple frameworks through writing.
+
+My current focus is improving and expanding **NourishUs**, a cycle-phase-based nutrition app available on the App Store. Along the way, I plan to publish technical deep dives into the architectural and engineering decisions behind it.
+
+---
+
+## Why Write About It?
+
+Writing forces clarity.
+
+Shipping an app demonstrates execution.  
+Explaining its architecture demonstrates understanding.
+
+Over the next several months, I’ll be breaking down real implementation details from NourishUs — not hypothetical examples, but production decisions.
+
+---
+
+## Technical Areas I’ll Be Exploring
+
+Here are a few of the engineering topics I plan to write about:
+
+### 1. SwiftUI State Management in a Production App
+
+NourishUs relies heavily on `Observable` and environment-driven dependency injection.
+
+Some upcoming topics:
+- Avoiding redundant re-renders
+- Managing derived state cleanly
+- Structuring view models for scalability
+
+---
+
+### 2. Using SwiftData for Local Data Storage
+
+Our customers do not want their private health data in the cloud. We use SwiftData to keep it on device
+
+I’ll be outlining:
+- Data modeling strategies
+- Using SwiftData in MVVM architecture
+- Keeping UI responsive during recomputation
+
+---
+
+### 3. HealthKit Integration with Privacy in Mind
+
+NourishUs integrates with Apple Health to read cycle data.
+
+Future posts will explore:
+- Requesting and managing permissions
+- Sync timing considerations
+- Designing features around on-device privacy
+
+### 4. Using Local Notifications for App Engagement
+
+Local notifications are an easy way to encourage app engagement. We use them to remind our customers of upcoming cycle phase change is a good time to review recommended recipes.
+
+I'll be showing:
+- Requesting and handling permissions
+- Setup and schedule notifications
+- Handling fired notification interactions
+
+---
+
+## What’s Next
+
+In the near future, I plan to:
+
+- Refactor DataStore class to improve cycle calculation
+- Improve cold launch performance
+- Expand automated UI and unit testing
+- Publish one in-depth technical article every 2–3 weeks
+
+This site will serve as both documentation and reflection as the app evolves.
+
+If you’re interested in thoughtful iOS architecture, SwiftUI behavior, and real-world engineering tradeoffs, follow along.
+
+*last updated: Feb 20, 2026*

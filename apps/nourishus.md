@@ -62,10 +62,9 @@ NourishUs was built to provide structured, phase-aware nutritional support witho
 
 - Dynamic filtering across 400+ recipes
 - Context-aware recommendations based on cycle phase
-- Lightweight HealthKit sync
+- Lightweight HealthKit/SwiftData sync
 - Accessibility-first typography and layout
 - Optimized list rendering for performance
-- 
 
 ---
 
@@ -74,8 +73,8 @@ NourishUs was built to provide structured, phase-aware nutritional support witho
 ### State Consistency
 Ensuring the UI accurately reflects cycle phase changes without redundant view re-rendering.
 
-### Filtering Complexity
-Combining multiple dietary restrictions with phase-specific logic while maintaining performance.
+### Dynamic Cycle Dial
+Swift Charts to create dynamic Cycle Dial UI element.
 
 ### Privacy
 Designing features around Apple Health without storing sensitive health data remotely.
@@ -87,7 +86,7 @@ Designing features around Apple Health without storing sensitive health data rem
 - Expand automated UI and unit test coverage
 - Improve cold launch performance
 - Add deeper personalization logic
-- Improve cycle and phase calculations logic
+- Refactor DataStore class to improve cycle and phase calculation logic
 
 ---
 
