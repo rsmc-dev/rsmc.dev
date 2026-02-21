@@ -69,6 +69,15 @@ I'll be showing:
 - Setup and schedule notifications
 - Handling fired notification interactions
 
+### 5. Build UI Element with Swift Charts, Path, and View Composition
+
+The main UI element in the cycle tracking feature is built with Swift Charts and Path to dynamically represent the phase and days in the cycle.
+
+I'll be showing:
+- Charts SectorMark to layout phases of cycle
+- Path to layout series of Circles to layout days of cycle
+- Use of composition to build complex UI from smaller, task specific components
+
 ---
 
 ## What’s Next
