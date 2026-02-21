@@ -83,10 +83,9 @@ Designing features around Apple Health without storing sensitive health data rem
 
 ## What I Would Improve Next
 
-- Expand automated UI and unit test coverage
-- Improve cold launch performance
-- Add deeper personalization logic
-- Refactor DataStore class to improve cycle and phase calculation logic
+- Refactoring DataStorage class to reduce complexity and improve cycle/phase calculation logic
+- Increase Instrumentation to find and improve performance bottlenecks
+- Increasing automated UI and unit test coverage
 
 ---
 

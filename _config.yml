@@ -165,6 +165,8 @@ kramdown:
       start_line: 1
 
 collections:
+  apps:
+    output: true
   tabs:
     output: true
     sort_by: order

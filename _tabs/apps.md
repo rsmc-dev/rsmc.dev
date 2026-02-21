@@ -2,7 +2,7 @@
 title: Apps
 layout: page
 icon: fa-brands fa-app-store-ios
-order: 1
+order: 2
 ---
 
 # Apps
@@ -17,5 +17,6 @@ Applications I’ve designed and built.
 - Privacy-first design 
 - Built entirely with SwiftUI 
 
-[![View on the App Store](/assets/img/download_white.svg)](https://apps.apple.com/us/app/nourishus-cycle-nutrition/id6739262149)   
 [Case Study →](/apps/nourishus/)
+
+[![View on the App Store](/assets/img/download_white.svg)](https://apps.apple.com/us/app/nourishus-cycle-nutrition/id6739262149)

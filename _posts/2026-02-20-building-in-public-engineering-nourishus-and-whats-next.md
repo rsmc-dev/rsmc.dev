@@ -1,6 +1,6 @@
 ---
 title: "Building in Public: Engineering NourishUs and What's Next"
-date: 2016-02-20
+date: 2026-02-20
 categories: [meta]
 tags: [swiftui, architecture, ios, swiftdata]
 ---
@@ -40,13 +40,13 @@ Some upcoming topics:
 
 ---
 
-### 2. Using SwiftData for Local Data Storage
+### 2. SwiftData for Local Data Storage
 
 Our customers do not want their private health data in the cloud. We use SwiftData to keep it on device
 
 I’ll be outlining:
 - Data modeling strategies
-- Using SwiftData in MVVM architecture
+- SwiftData in MVVM architecture
 - Keeping UI responsive during recomputation
 
 ---
@@ -60,7 +60,7 @@ Future posts will explore:
 - Sync timing considerations
 - Designing features around on-device privacy
 
-### 4. Using Local Notifications for App Engagement
+### 4. Local Notifications for App Engagement
 
 Local notifications are an easy way to encourage app engagement. We use them to remind our customers of upcoming cycle phase change is a good time to review recommended recipes.
 
@@ -75,8 +75,8 @@ I'll be showing:
 
 In the near future, I plan to:
 
-- Refactor DataStore class to improve cycle calculation
-- Improve cold launch performance
+- Refactor DataStorage class to improve cycle calculation
+- Improve performance with Instruments
 - Expand automated UI and unit testing
 - Publish one in-depth technical article every 2–3 weeks
 
